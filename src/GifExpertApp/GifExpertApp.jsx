@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { GifGrid, AddCategory } from "./components"
+import { GifGrid, AddCategory } from "../components"
 
 const GifExpertApp = () => {
   const [categories, setCategories] = useState(['Friends', 'Iron Man'])
@@ -28,4 +28,4 @@ const GifExpertApp = () => {
   )
 }
 
-export default GifExpertApp
+export { GifExpertApp }
