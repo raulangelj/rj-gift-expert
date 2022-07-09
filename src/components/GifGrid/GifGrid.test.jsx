@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { useFetchGifs } from '../../hooks/useFetchGifs';
+import { useFetchGifs } from '../../hooks/useFetchGifs/useFetchGifs/useFetchGifs';
 import { GifGrid } from './GifGrid';
 
 // Hacer el mock de lo que tiene el path (useFetchGifs)
