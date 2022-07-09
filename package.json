@@ -6,7 +6,8 @@
     "start": "vite --open",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "tests": "jest"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
